@@ -1,9 +1,11 @@
 [[source]]
 name = "pypi"
-url = "https://pypi.org/simple"
+#url = "https://pypi.org/simple"
+url = "https://mirrors.aliyun.com/pypi/simple"
 verify_ssl = true
 
 [dev-packages]
+faker = "*"
 
 [packages]
 flask = "*"
@@ -12,6 +14,11 @@ flask-wtf = "*"
 flask-login = "*"
 bootstrap-flask = "*"
 python-dotenv = "*"
+flask-mail = "*"
+flask-moment = "*"
+flask-ckeditor = "*"
+flask-share = "*"
+awesome-slugify = "*"
 
 [requires]
 python_version = "3.7"
